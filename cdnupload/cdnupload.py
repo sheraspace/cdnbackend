@@ -140,8 +140,6 @@ def get_content_disposition(filename):
 def cdnupload(productname, foldername, file):
     try:
         print('Starting CDN upload...')
-        
-        # Validate inputs
         if not file:
             print('No file provided.')
             return Response(

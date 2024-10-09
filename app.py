@@ -15,7 +15,10 @@ CORS(app)
 def home():
       return render_template('home.html')
 
-# About route
+@app.route('/islive')
+def running():
+      return {'status':200}
+
 
 def allowedchecktype(file): 
     allowed_extensions = set(['.mp4', '.jpg', '.jpeg', '.png', '.skp', '.dwg', '.ppt', '.pptx', '.pdf', '.avi'])
@@ -52,7 +55,6 @@ def allowedchecktype(file):
 @app.route('/saveRequirementsFiles', methods=['POST'])
 def cdnuploadtest():    
     try:
-        print('saveRequirementsImage') 
         file = request.files.get("file")  
         if file:
                         desFolder = request.form.get('product_name') 
