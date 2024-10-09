@@ -1,0 +1,50 @@
+Flask
+Flask-RESTful 
+Flask-Cors
+
+# Flask-Migrate
+# Flask-Script 
+# SQLAlchemy
+# flask-sqlalchemy 
+# marshmallow 
+# flask-marshmallow 
+# marshmallow-sqlalchemy 
+# psycopg2 == 2.8.6
+# psycopg2-binary
+# Flask-Mail 
+# flask-bcrypt
+Flask-Uploads 
+simplejson 
+requests 
+# phonenumbers 
+
+# Flask-Principal 
+# Flask-Security 
+
+# schedule 
+# uWSGI==2.0.18
+
+# html2text 
+# num2words 
+# pdfkit 
+# PyVirtualDisplay
+# numpy == 1.19.5
+
+
+# facebook-sdk
+# Pyrebase4 == 4.5.0
+# PyJWT==2.3.0
+# ics
+# flask_jwt_extended 
+python-dotenv
+
+
+boto3
+botocore
+
+# Flask-Cors
+# Flask-RESTful
+# Jinja2
+# MarkupSafe
+# itsdangerous
+# Werkzeug
