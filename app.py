@@ -13,7 +13,7 @@ CORS(app)
 # Home route
 @app.route('/')
 def home():
-    return 'hello'
+      return render_template('home.html')
 
 # About route
 

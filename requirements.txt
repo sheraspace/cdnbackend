@@ -1,7 +1,7 @@
 Flask
 Flask-RESTful 
 Flask-Cors
-
+gunicorn==20.1.0
 # Flask-Migrate
 # Flask-Script 
 # SQLAlchemy
